@@ -6,9 +6,9 @@
 /* general style rules */
 body {
     font-family: 'Poppins', sans-serif;
-    font-size: 18 px;
+    font-size: 18px;
     padding: 0;
-    margin: auto 0;
+    margin: 0 auto;
     background-color:  white;
     color: black;
 }
@@ -33,15 +33,14 @@ body {
 /* display picture styling */
 .content img {
     display: block;
-    height: 175px;
-    width: 175px;
-    margin: 15px;
+    height: 160px;
+    width: 160px;
+    margin: 13px;
     border: 3px solid lightseagreen;
     border-radius: 50%;
-    align-content: center;
     margin: 0 auto;
 }
- /* styling the text  */
+/* styling the text  */
 .content {
     padding: 10px 50px;
     color: black;
@@ -56,38 +55,42 @@ body {
     font-size: 24px;
     text-align: center;
 }
-.content h5 {
+.content h5, blockquote {
     color: grey;
     padding-top: 5px;
     margin: 0;
     font-size: 18px;
     text-align: center;
 }
+.content > blockquote {
+    margin-bottom: 10px;
+}
 .content p  {
-    padding: 8px 70px;
+    padding: 5px 70px;
     text-align: justify;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.3px;
 } 
  /* skillset  */
- .skills {
-    /* padding: 3px 30px; */
-    padding: 15px 30px;
-    margin: 15px 30px;
-    text-align: justify;
-    font-size: 16px;
- }
- .skills ul {
-    list-style: none;  
- }
- .skills li {
-    display: inline-block;
-    padding: 10px 15px;
-    margin-right: 10px;
-    border-radius: 7px;
-    background-color: rgb(38, 165, 238);
+.skills {
+   padding: 15px 30px;
+   margin: 4px 30px;
+   text-align: justify;
+   font-size: 16px;
 }
-.skills ul :hover {
-    border: 1px solid aquamarine;
+.skills ul {
+   list-style: none;  
+}
+.skills li {
+   display: inline-block;
+   padding: 10px 15px;
+   text-align: center;
+   vertical-align: center;
+   margin-top: 7px;
+   margin-right: 5px;
+   border-radius: 7px;
+   background-color: rgb(38, 165, 238);
 }
 /* links */
 .link {
@@ -103,8 +106,10 @@ body {
 
 
 
-/* responsive web design */
-@media (max-width: 500px) {
+
+
+/* responsive web design for mobile devices */ 
+@media screen and (max-width: 450px) {
     
     .connections {
         margin: 10px 25px ;
@@ -119,21 +124,21 @@ body {
     }
     /* display picture styling */
     .content img {
-    display: block;
-    height: 150px;
-    width: 150px;
-    margin: 20px 15px;
-    border: 3px solid grey;
-    border-radius: 50%;
-    align-content: center;
-    margin: 0 auto;
+        display: block;
+        height: 150px;
+        width: 150px;
+        margin: 20px 15px;
+        border: 3px solid grey;
+        border-radius: 50%;
+        align-content: center;
+        margin: 0 auto;
     }
     /* styling the text  */
     .content {
-    padding: 10px 20px;
-    font-style: normal;
-    align-content: center;
-    margin: 0 auto;
+        padding: 10px 20px;
+        font-style: normal;
+        align-content: center;
+        margin: 0 auto;
     }
     .content h1 {
         padding-top: 20px;
@@ -142,10 +147,10 @@ body {
         text-align: center;
     }
     .content h5 {
-    padding-top: 5px;
-    margin: 0;
-    font-size: 18px;
-    text-align: center;
+        padding-top: 5px;
+        margin: 0;
+        font-size: 18px;
+        text-align: center;
     }
     .content p  {
         padding: 8px 30px;
@@ -154,22 +159,19 @@ body {
     } 
     /* skillset  */
     .skills {
-        padding: 3px 15px;
-        text-align: justify;
-        font-size: 14px;
-     }
-     .skills ul {
-        list-style: none;
-
-     }
-     .skills li {
-        display: inline-block;
-        padding: 10px 15px;
-        margin: 5px 2px;
-        border-radius: 7px;
+       padding: 3px 15px;
+       text-align: justify;
+       font-size: 14px;
     }
-    .skills ul :hover {
-        border: 1px solid aquamarine;
+    .skills ul {
+       list-style: none;
+    }
+    .skills li {
+       display: block;
+       padding: 10px 15px;
+       margin: 5px 2px;
+       border-radius: 4px;
+       text-align: center;
     }
     /* links */
     .link {
