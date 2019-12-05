@@ -72,6 +72,10 @@ body {
     line-height: 1.5;
     letter-spacing: 0.3px;
 } 
+
+.underline {
+    text-decoration: underline;
+}
  /* skillset  */
 .skills {
    padding: 15px 30px;
