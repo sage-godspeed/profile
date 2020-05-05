@@ -107,8 +107,105 @@ body {
     padding: 10px 15px;
     color: black;
 }
+/* styling the design canvas */
+.site-section {
+    padding: 40px 25px;
+    margin: 30px 15px;
+  }
+.track {
+    width: 300px;
+    height: 350px;
+    display: block;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 0 15px;
+  }
+  .track > h5 {
+    font-size: 30px;
+    font-weight: 600;
+    display: inline-block;
+    width: 55%;
+    padding: 15px;
+    margin: 25px;
+    vertical-align: center;
+  }
+  .track h5 > a {
+      color: black;
+      text-decoration: underline;
+  }
+  .track > p {
+    margin-top: 20px;
+    padding: 10px 30px;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    column-gap: 0.3rem;
+    row-gap: 2.5rem;
+}   
+  
+  /* adding colors to the tracks */
+  
+  .wrapper > article:nth-child(1n) {
+    background-color: #0ECFA1;	
+  }
+  .wrapper > article:nth-child(2n) {
+    background-color: #EF6D65;	
+  }
+  .wrapper> article:nth-child(3n) {
+    background-color: #FAE476;	
+  }
+  .wrapper > article:nth-child(4n) {
+    background-color: #2E9DE3;	
+  }
 
 
+
+/* responsive web design for tablets and ipad devices */ 
+  @media only screen 
+  and (min-width: 756px) 
+  and (max-width: 1080px) {
+      
+/* styling the design canvas */
+.site-section {
+    padding: 40px 20px;
+    margin: 30px 10px;
+  }
+.track {
+    width: 300px;
+    height: 350px;
+    display: block;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 0 5px;
+  }
+  .track > h5 {
+    font-size: 30px;
+    font-weight: 600;
+    display: inline-block;
+    width: 65%;
+    padding: 15px;
+    margin: 25px;
+    vertical-align: center;
+  }
+  .track h5 > a {
+      color: black;
+      text-decoration: underline;
+  }
+  .track > p {
+    margin-top: 20px;
+    padding: 10px 30px;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    column-gap: 0.5rem;
+    row-gap: 2rem;
+}   
+  
+}
 
 
 
@@ -187,5 +284,43 @@ body {
         text-decoration: underline;
         padding: 10px 5px;
     }
+    /* styling the design canvas */
+.site-section {
+    padding: 40px 20px;
+    margin: 30px 10px;
+  }
+.track {
+    width: 270px;
+    height: 340px;
+    display: block;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 0 5px;
+  }
+  .track > h5 {
+    font-size: 30px;
+    font-weight: 600;
+    display: inline-block;
+    width: 65%;
+    padding: 15px;
+    margin: 25px;
+    vertical-align: center;
+  }
+  .track h5 > a {
+      color: black;
+      text-decoration: underline;
+  }
+  .track > p {
+    margin-top: 20px;
+    padding: 10px 30px;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    column-gap: 0.5rem;
+    row-gap: 2rem;
+}   
+  
 
 }
