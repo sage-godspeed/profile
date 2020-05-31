@@ -144,6 +144,10 @@ body {
     column-gap: 0.3rem;
     row-gap: 2.5rem;
 }   
+/* ui tweak for better visuals */
+.whitespace {
+    padding: 20px;
+}
   
   /* adding colors to the tracks */
   
