@@ -1,4 +1,4 @@
 
 # my personal website and portfolio webpage
 
-This is live on [njokugodson.rocks](https://sage-godspeed.github.io/profile/)
+This is live on [here](https://sage-godspeed.github.io/profile/)
